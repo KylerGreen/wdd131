@@ -3,5 +3,9 @@
 }
 
 header > h2 {
-    font-size: 1.5m;
+    font-size: 1.5em;
+}
+
+header > h1 {
+    margin-bottom: 0;
 }
