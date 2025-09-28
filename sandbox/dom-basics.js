@@ -5,7 +5,7 @@ document.body.appendChild(newParagraph);
 
 const newImage = document.createElement('img');
 newImage.setAttribute('src', 'https://picsum.photos/200');
-newImage.setAttribute('alt', 'Random image from picsum.');
+newImage.setAttribute('alt', 'Random image.');
 document.body.appendChild(newImage);
 
 const newDiv = document.createElement("div");
