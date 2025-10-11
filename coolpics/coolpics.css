@@ -20,12 +20,14 @@ body {
 
 a:link,
 a:visited {
-  color: var(--accent-color);
+  color: var(--text-light);
+  padding: 0.5em;
 }
 
 img {
 	max-width: 100%;
 }
+
 
 header {
   background-color: var(--primary-color);
@@ -49,6 +51,28 @@ header {
   margin: 0;
 }
 
+.hide {
+  display: none;
+}
+
+dialog {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .6);
+}
+
+dialog img {
+  max-width: 90%;
+  margin: 20vh auto;
+  max-height: 100%;
+  display: block;
+}
+
+.close-viewer {
+  position: absolute;
+  top: 20vh;
+  right: 19.2%;
+}
 @media screen and (min-width: 700px) {
   .gallery {
     grid-template-columns: 1fr 1fr;
