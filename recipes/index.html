@@ -6,16 +6,46 @@
     <meta name="author" content="Kyler Greenhalgh">
     <meta name="description" content="A collection of delicious recipes to try at home.">
     <title>Recipes</title>
+    <link rel="stylesheet" href="recipes.css">
     <meta property="og:title" content="Recipes">
     <meta property="og:type" content="website" />
     <meta property="og:description" content="A collection of delicious recipes to try at home.">
     <meta property="og:image" content="URL to an image">
     <meta property="og:url" content="URL of the page">
-    <meta name="twitter:card" content="summary_large_image">    
+    <meta name="twitter:card" content="summary_large_image">   
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <header></header>
-    <main></main>
+    <header>
+        <section class="title">
+            <img class="RecipeBookImage" src="images/recipe-book.png" alt="recipe book icon">
+            <h1>Recipe Book</h1>
+        </section>
+        <section class="Search">
+            <p>Find a Recipe!</p>
+            <div class="SearchBar">
+                <input type="text" id="searchBar">
+                <img class="SearchIcon" src="images/search.svg" alt="search icon">
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="Recipe">
+            <img src="images/apple-crisp.jpg" alt="Apple Crisp">
+            <section class="RecipeContent">
+                <p class="Tags">dessert</p>
+                <h2>Apple Crisp</h2>
+                <span class="rating" role="img" aria-label="Rating: 4 out of 5 stars">
+                    <span aria-hidden="true" class="icon-star">⭐</span>
+                    <span aria-hidden="true" class="icon-star">⭐</span>
+                    <span aria-hidden="true" class="icon-star">⭐</span>
+                    <span aria-hidden="true" class="icon-star">⭐</span>
+                    <span aria-hidden="true" class="icon-star-empty">☆</span>
+                </span>
+                <p class="Description">This apple crisp recipe is a simple yet delicious fall dessert that's great served warm with vanilla ice cream.</p>
+            </section>
+        </section>
+    </main>
     <footer>
         <a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">Recipe icons created by Freepik - Flaticon</a>
         <div class="social">
