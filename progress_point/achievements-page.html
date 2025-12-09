@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Kyler Greenhalgh">
+  <meta name="description" content="View and track your achievements with Progress Point">
+  <title>Progress Point | Achievements</title>
+
+  <link rel="stylesheet" href="styles/achievements.css">
+  <script src="achievements.js" defer></script>
+</head>
+
+<body>
+<header>
+  <nav class="navbar" aria-label="Primary navigation">
+    <img src="images/ProgressPointLogo.webp" alt="Progress Point logo" id="logo">
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="achievements-page.html" aria-current="page">Achievements</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="page-header">
+    <h1>Achievements</h1>
+    <p>Track your personal achievements and celebrate progress.</p>
+  </section>
+
+  <section class="new-achievement">
+    <h2>New Achievement</h2>
+    <div class="form-container">
+      <div class="new-achievement-fields">
+        <input type="text" id="achievement-title" placeholder="Achievement Title">
+        <textarea id="achievement-description" placeholder="Achievement Description"></textarea>
+      </div>
+
+      <button class="primary-btn" id="add-achievement">
+        Add Achievement
+      </button>
+    </div>
+  </section>
+
+  <section class="achievement-list" aria-live="polite">
+    <h2>My Achievements</h2>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Kyler Greenhalgh</p>
+</footer>
+</body>
+</html>

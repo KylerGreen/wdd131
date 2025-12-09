@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Kyler Greenhalgh">
+  <meta name="description" content="Track your progress and achievements with Progress Point.">
+  <title>Progress Point | Home</title>
+
+  <link rel="stylesheet" href="styles/achievements.css">
+  <script src="achievements.js" defer></script>
+  <script src="achievements_Home.js" defer></script>
+</head>
+
+<body>
+<header>
+  <nav class="navbar" aria-label="Primary navigation">
+    <img
+      src="images/ProgressPointLogo.webp"
+      alt="Progress Point logo"
+      id="logo"
+      fetchpriority="high"
+    >
+
+    <div class="nav-links">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="achievements-page.html">Achievements</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="banner">
+    <div class="banner-text">
+      <h1>Track Your Progress.</h1>
+      <p>
+        Progress Point helps you track personal achievements
+        all in one place.
+      </p>
+
+      <a href="achievements-page.html" class="primary-btn">
+        Get Started
+      </a>
+    </div>
+
+    <div class="banner-image">
+      <img
+        src="images/Achievement_Image.webp"
+        alt="A trophy cup"
+        width="290"
+        height="210"
+        fetchpriority="high"
+        decoding="async"
+      >
+    </div>
+  </section>
+
+  <section class="cards" aria-labelledby="features-heading">
+    <h2 id="features-heading" class="visually-hidden">Features</h2>
+
+    <div class="card">
+      <img src="images/Goal_Tracking.webp" alt="A Target and ToDo List" loading="lazy">
+      <p>Set goals and track progress toward milestones.</p>
+    </div>
+
+    <div class="card">
+      <img src="images/Visual_Insights.webp" alt="A basic visual graph" loading="lazy">
+      <p>See your progress with clear visuals and summaries.</p>
+    </div>
+
+    <div class="card">
+      <img src="images/Achievement_System.webp" alt="A " loading="lazy">
+      <p>Log and manage achievements as you complete them.</p>
+    </div>
+  </section>
+
+  <section class="achievement-preview">
+    <h2>Achievements</h2>
+    <p>Review recent achievements and celebrate your progress.</p>
+
+    <div class="preview-cards" aria-live="polite">
+        
+    </div>
+
+    <a href="achievements-page.html" class="secondary-btn">View All</a>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Kyler Greenhalgh</p>
+</footer>
+</body>
+</html>
